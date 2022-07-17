@@ -7,7 +7,7 @@ function App() {
   return (
     
       <Routes>
-        <Route path="/portafolio" element={<HomePage/>}></Route>
+        <Route path={process.env.PUBLIC_URL + '/'} element={<HomePage/>}></Route>
       </Routes>
    
   );
