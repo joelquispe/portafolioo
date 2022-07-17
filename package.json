@@ -2,7 +2,7 @@
   "name": "portafolio",
   "homepage": "https://joelquispe.github.io/portafolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
