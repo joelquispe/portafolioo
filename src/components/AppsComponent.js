@@ -27,7 +27,7 @@ const AppsComponent = () => {
         </Typography>
           <Button variant="contained" >Github</Button>
 
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href='https://www.mediafire.com/file/ixv34nupgvsqb6c/app-tienda.apk/file' download>Download </Button>
         </CardContent>
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
@@ -46,7 +46,7 @@ const AppsComponent = () => {
         </Typography>
           <Button variant="contained" >Github</Button>
 
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href='https://www.mediafire.com/file/xi13j5oq7xpojor/app-developers.apk/file' download>Download </Button>
         </CardContent>
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
@@ -65,7 +65,7 @@ const AppsComponent = () => {
         </Typography>
           <Button variant="contained" >Github</Button>
 
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href='https://www.mediafire.com/file/69vb0pcu4lepqfj/appdropx.apk/file' download>Download </Button>
         </CardContent>
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
@@ -84,7 +84,7 @@ const AppsComponent = () => {
         </Typography>
           <Button variant="contained" >Github</Button>
 
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href='https://www.mediafire.com/file/yz73r03r0a3qkc4/app-store.apk/file' download>Download </Button>
         </CardContent>
       </Card>
 
@@ -92,7 +92,7 @@ const AppsComponent = () => {
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
         <CardMedia
           component="img"
-          image="./img/proyects/ecommerceyape.jpeg"
+          image="./img/proyects/mobile/ecommerceapp.jpg"
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
           
@@ -104,7 +104,7 @@ const AppsComponent = () => {
         </Typography>
           <Button variant="contained" >Github</Button>
 
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href='https://www.mediafire.com/file/va8s8lgahveuryc/appecommerce.apk/file' download>Download </Button>
         </CardContent>
       </Card>
     </div>

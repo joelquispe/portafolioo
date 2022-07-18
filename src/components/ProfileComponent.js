@@ -1,5 +1,5 @@
 import { Typography } from "@mui/material";
-
+import { Redirect } from "react-router-dom";
 const ProfileComponent = ()=>{
     return <div class="d-flex justify-content-center">
     <div class="p-3 d-grid align-content-center"> 
@@ -17,19 +17,20 @@ const ProfileComponent = ()=>{
             <div>
             <h4>Personal</h4>
             <div >
-                <a><img src={"./img/social/facebook.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
-                <a><img src={"./img/social/instagram.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
-                <a><img src={"./img/social/twitter.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                
+               <a href="https://www.facebook.com/joelalexander.sosayaquispe.3"><img src={"./img/social/facebook.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a ><img src={"./img/social/instagram.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a href="https://twitter.com/JoelSosaya"><img src={"./img/social/twitter.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
             </div>
             </div>
             
             <div>
             <h4>Página</h4>
             <div >
-                <a><img src={"./img/social/facebook.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
-                <a><img src={"./img/social/youtubepng.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
-                <a><img src={"./img/social/twitter.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
-                <a><img src={"./img/social/discord.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a href="https://www.facebook.com/DeveloperSSTeam"><img src={"./img/social/facebook.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a href="https://www.youtube.com/channel/UCj2FWnuPMQDm4Rg9z_1mPoA"><img src={"./img/social/youtubepng.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a href="https://twitter.com/developerrss"><img src={"./img/social/twitter.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a href=""><img src={"./img/social/discord.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
             </div>
             </div>
             

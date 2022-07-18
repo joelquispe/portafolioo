@@ -8,7 +8,7 @@ const WebsComponent = () => {
       <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
         <CardMedia
           component="img"
-          image="./img/proyects/portafolio.png"
+          image="./img/proyects/web/portafolio.png"
 
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
@@ -18,129 +18,81 @@ const WebsComponent = () => {
           <Typography variant="body2" >
             Portafolio de desarrollador
           </Typography>
-          <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href="https://github.com/joelquispe/briefcaseJoelQuispe" >Github</Button>
+          <Button variant="contained" href="https://joelquispe.github.io/briefcaseJoelQuispe/" >View</Button>
         </CardContent>
       </Card>
       <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
         <CardMedia
           component="img"
-          image="./img/proyects/portafolio.png"
+          image="./img/proyects/web/panel1.png"
 
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
           <Typography gutterBottom variant="h5" component="div">
-            Aplication web
+            Panel web angular
           </Typography>
           <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
+            Aplicación web administrable hecho en angular
           </Typography>
           <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href="https://panelangular1.firebaseapp.com/#/login" >View</Button>
         </CardContent>
       </Card>
       <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
         <CardMedia
           component="img"
-          image="./img/proyects/portafolio.png"
+          image="./img/proyects/web/music.png"
 
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
           <Typography gutterBottom variant="h5" component="div">
-            Aplication web
+            Música
           </Typography>
           <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
+            Página web de reproducción de música.
           </Typography>
           <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href="https://joelquispe.github.io/music/">View</Button>
         </CardContent>
       </Card>
       <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
         <CardMedia
           component="img"
-          image="./img/proyects/portafolio.png"
+          image="./img/proyects/web/gameabc.png"
 
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
           <Typography gutterBottom variant="h5" component="div">
-            Aplication web
+            Juego de abecedario
           </Typography>
           <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
+            Juego de escribir correctamente la letra que esta al costado
           </Typography>
           <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href="https://joelquispe.github.io/abecedario-original/" >View</Button>
         </CardContent>
       </Card>
       <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
         <CardMedia
           component="img"
-          image="./img/proyects/portafolio.png"
+          image="./img/proyects/web/formulario.png"
 
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
           <Typography gutterBottom variant="h5" component="div">
-            Aplication web
+            Formulario
           </Typography>
           <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
+            Formulario para registrarse responsive
           </Typography>
           <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
+          <Button variant="contained" href="https://joelquispe.github.io/formResponsive/">View</Button>
         </CardContent>
       </Card>
-      <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
-        <CardMedia
-          component="img"
-          image="./img/proyects/portafolio.png"
-
-        ></CardMedia>
-        <CardContent class=" d-grid mt-2">
-          <Typography gutterBottom variant="h5" component="div">
-            Aplication web
-          </Typography>
-          <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
-          </Typography>
-          <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
-        </CardContent>
-      </Card>
-      <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
-        <CardMedia
-          component="img"
-          image="./img/proyects/portafolio.png"
-
-        ></CardMedia>
-        <CardContent class=" d-grid mt-2">
-          <Typography gutterBottom variant="h5" component="div">
-            Aplication web
-          </Typography>
-          <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
-          </Typography>
-          <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
-        </CardContent>
-      </Card>
-      <Card className=" p-3 text-center m-2 d-grid justify-content-center" elevation={10} sx={{ bgcolor: 'secondary.main', maxWidth: 370 }} >
-        <CardMedia
-          component="img"
-          image="./img/proyects/portafolio.png"
-
-        ></CardMedia>
-        <CardContent class=" d-grid mt-2">
-          <Typography gutterBottom variant="h5" component="div">
-            Aplication web
-          </Typography>
-          <Typography variant="body2" >
-            Aplicación para la venta de productos con métodos de pago alternativos
-          </Typography>
-          <Button variant="contained" >Github</Button>
-          <Button variant="contained" >View</Button>
-        </CardContent>
-      </Card>
+      
+      
+      
     </div>
   </Paper>
 }
