@@ -46,7 +46,7 @@ const AppsComponent = () => {
         </Typography>
           <Button variant="contained" >Github</Button>
 
-          <Button variant="contained" href='https://www.mediafire.com/file/xi13j5oq7xpojor/app-developers.apk/file' download>Download </Button>
+          <Button variant="contained" href='https://www.mediafire.com/file/f2q47hz88ni22yu/app-developers.apk/file' download>Download </Button>
         </CardContent>
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
