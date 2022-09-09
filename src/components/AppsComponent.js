@@ -92,7 +92,7 @@ const AppsComponent = () => {
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
         <CardMedia
           component="img"
-          image="./img/proyects/mobile/ecommerceapp.jpg"
+          image="./img/proyects/mobile/ecommerceapp.jpeg"
         ></CardMedia>
         <CardContent class=" d-grid mt-2">
           
