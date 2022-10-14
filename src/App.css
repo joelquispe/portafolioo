@@ -6,3 +6,11 @@ h5{
   margin:0;
   padding:0;
 }
+.cardImg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:400px;
+  width: 800px
+}

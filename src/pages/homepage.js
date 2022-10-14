@@ -7,6 +7,7 @@ import FooterComponent from '../components/FooterComponent';
 import LanguageComponent from '../components/languageComponent';
 import ProfileComponent from '../components/ProfileComponent';
 import WebsComponent from '../components/websComponents';
+import DesignComponent from '../components/DesignComponent';
 
 export default function HomePage() {
     const [theme,setTheme] = useState(baseTheme);
@@ -22,6 +23,8 @@ export default function HomePage() {
     <AppsComponent />
     <hr></hr>
     <WebsComponent/>
+    <hr></hr>
+    <DesignComponent/>
     <FooterComponent/>
         </div>
         </Paper>

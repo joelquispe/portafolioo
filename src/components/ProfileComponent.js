@@ -19,7 +19,7 @@ const ProfileComponent = ()=>{
             <div >
                 
                <a href="https://www.facebook.com/joelalexander.sosayaquispe.3"><img src={"./img/social/facebook.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
-                <a ><img src={"./img/social/instagram.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
+                <a href="https://www.instagram.com/j0el__quispe/" ><img src={"./img/social/instagram.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
                 <a href="https://twitter.com/JoelSosaya"><img src={"./img/social/twitter.png"} style={{width:"30px",borderRadius: "30px"}}/></a>
             </div>
             </div>
