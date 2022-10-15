@@ -45,10 +45,7 @@ const AppsComponent = () => {
       </Card>
     <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
-        <CardMedia
-          component="img"
-          image="./img/proyects/bodega.jpeg"
-        ></CardMedia>
+        <CarrouselComponent images={["./img/apps/mibodega/1.jpg","./img/apps/mibodega/2.jpg","./img/apps/mibodega/3.jpg","./img/apps/mibodega/4.jpg","./img/apps/mibodega/5.jpg","./img/apps/mibodega/6.jpg","./img/apps/mibodega/7.jpg","./img/apps/mibodega/8.jpg","./img/apps/mibodega/9.jpg","./img/apps/mibodega/10.jpg","./img/apps/mibodega/11.jpg","./img/apps/mibodega/12.jpg"]}></CarrouselComponent>
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
@@ -64,10 +61,7 @@ const AppsComponent = () => {
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
-        <CardMedia
-          component="img"
-          image="./img/proyects/developers.jpeg"
-        ></CardMedia>
+        <CarrouselComponent images={["./img/apps/developers/1.jpg","./img/apps/developers/2.jpg","./img/apps/developers/3.jpg","./img/apps/developers/4.jpg","./img/apps/developers/5.jpg","./img/apps/developers/6.jpg","./img/apps/developers/7.jpg","./img/apps/developers/8.jpg"]}></CarrouselComponent>
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
@@ -83,10 +77,7 @@ const AppsComponent = () => {
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
-        <CardMedia
-          component="img"
-          image="./img/proyects/deliverybox.jpeg"
-        ></CardMedia>
+        <CarrouselComponent images={["./img/apps/deliverybox/1.jpg","./img/apps/deliverybox/2.jpg","./img/apps/deliverybox/3.jpg","./img/apps/deliverybox/4.jpg","./img/apps/deliverybox/5.jpg","./img/apps/deliverybox/6.jpg","./img/apps/deliverybox/7.jpg","./img/apps/deliverybox/8.jpg","./img/apps/deliverybox/9.jpg"]}></CarrouselComponent>
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
@@ -122,10 +113,7 @@ const AppsComponent = () => {
 
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
-        <CardMedia
-          component="img"
-          image="./img/proyects/mobile/ecommerceapp.jpeg"
-        ></CardMedia>
+        <CarrouselComponent images={["./img/apps/mobilecommerce/1.jpg","./img/apps/mobilecommerce/2.jpg","./img/apps/mobilecommerce/3.jpg","./img/apps/mobilecommerce/4.jpg","./img/apps/mobilecommerce/5.jpg","./img/apps/mobilecommerce/6.jpg","./img/apps/mobilecommerce/7.jpg","./img/apps/mobilecommerce/8.jpg"]}></CarrouselComponent>
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
