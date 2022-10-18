@@ -8,7 +8,7 @@ export default function CarrouselComponent(props){
     
     return ( <div>
         <Carousel
-        sx={{width:230}}
+        sx={{width:560}}
         NextIcon={<NavigateNextIcon/>}
         PrevIcon={<NavigateBeforeIcon/>}
         interval={1500}

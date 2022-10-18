@@ -42,7 +42,7 @@ const ProfileComponent = ()=>{
             
         </div>
     </div>
-    <a href={Pdf} target="_blank" style={{textDecoration:'none',color:'#ffff',marginTop:10}}>
+    <a href={Pdf} target="_blank" style={{textDecoration:'none',color:'#ffff',marginTop:10}} rel="noreferrer">
         <div style={{display:'flex'}}>
         <ArticleIcon fontSize="large"></ArticleIcon>
         <h3>Curriculum</h3>

@@ -1,8 +1,8 @@
 
 import { React } from 'react';
 import Button from '@mui/material/Button';
-import { Box, Card, CardContent, CardMedia, Paper, Typography } from '@mui/material';
-import { useTheme } from "@mui/material/styles";
+import {  Card, CardContent, CardMedia, Paper, Typography } from '@mui/material';
+
 import CarrouselComponent from './CarrouselComponent';
 const AppsComponent = () => {
   
