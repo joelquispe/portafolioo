@@ -1,12 +1,11 @@
 import { Button, Typography } from "@mui/material";
-import { Redirect } from "react-router-dom";
-import { grey } from '@mui/material/colors';
+
 import Pdf from '../documents/cv_joel.pdf'
 import '../App.css';
 import ArticleIcon from '@mui/icons-material/Article';
-import { width } from "@mui/system";
+
 const ProfileComponent = ()=>{
-    const colors = grey[200];
+   
     return <div class="d-flex justify-content-center">
     <div class="p-3 d-grid align-content-center"> 
     <img src={"./img/profile.jpg"}  style={{width:"200px",borderRadius: "30px"}} className="card-img-top" alt="..."/></div>
