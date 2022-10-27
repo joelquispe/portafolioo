@@ -17,10 +17,10 @@ const AppsComponent = () => {
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
-          Mi bodega
+          App segurity
         </Typography>
           <Typography variant="body2" >
-          Aplicación para la administración en ventas de tienda
+          Aplicación con diferente seguridad para ingresar.
         </Typography>
           <Button variant="contained" >Github</Button>
 
@@ -33,10 +33,10 @@ const AppsComponent = () => {
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
-          Mi bodega
+          App Task
         </Typography>
           <Typography variant="body2" >
-          Aplicación para la administración en ventas de tienda
+          Aplicación para la gestión de tareas.
         </Typography>
           <Button variant="contained" >Github</Button>
 
@@ -93,10 +93,7 @@ const AppsComponent = () => {
       </Card>
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
-        <CardMedia
-          component="img"
-          image="./img/app.jpeg"
-        ></CardMedia>
+        <CarrouselComponent images={["./img/apps/appstore/1.jpg","./img/apps/appstore/2.jpg","./img/apps/appstore/3.jpg","./img/apps/appstore/4.jpg","./img/apps/appstore/5.jpg","./img/apps/appstore/6.jpg","./img/apps/appstore/7.jpg","./img/apps/appstore/8.jpg","./img/apps/appstore/9.jpg"]}></CarrouselComponent>
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
@@ -104,6 +101,22 @@ const AppsComponent = () => {
         </Typography>
           <Typography variant="body2" >
           Aplicación de venta de aplicaciones diferentes
+        </Typography>
+          <Button variant="contained" >Github</Button>
+
+          <Button variant="contained" href='https://www.mediafire.com/file/yz73r03r0a3qkc4/app-store.apk/file' download>Download </Button>
+        </CardContent>
+      </Card>
+      <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
+        {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
+        <CarrouselComponent images={["./img/apps/geofence/1.jpg","./img/apps/geofence/2.jpg","./img/apps/geofence/3.jpg","./img/apps/geofence/4.jpg","./img/apps/geofence/5.jpg","./img/apps/geofence/6.jpg","./img/apps/geofence/7.jpg","./img/apps/geofence/8.jpg"]}></CarrouselComponent>
+        <CardContent class=" d-grid mt-2">
+          
+          <Typography gutterBottom variant="h5" component="div">
+          App Geocerca
+        </Typography>
+          <Typography variant="body2" >
+          Aplicación de geocerca que detecta si se encuentra en la zona o no.
         </Typography>
           <Button variant="contained" >Github</Button>
 
