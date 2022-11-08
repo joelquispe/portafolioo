@@ -126,7 +126,7 @@ const AppsComponent = () => {
 
       <Card className="  p-3 text-center m-2 d-grid justify-content-center " elevation={10} sx={{bgcolor: 'secondary.main',maxWidth: 260 }} >
         {/* <img src="./img/proyects/bodega.jpeg" style={{ width: "220px" }} class="card-img-top" alt="..." /> */}
-        <CarrouselComponent images={["./img/apps/mobilecommerce/1.jpg","./img/apps/mobilecommerce/2.jpg","./img/apps/mobilecommerce/3.jpg","./img/apps/mobilecommerce/4.jpg","./img/apps/mobilecommerce/5.jpg","./img/apps/mobilecommerce/6.jpg","./img/apps/mobilecommerce/7.jpg","./img/apps/mobilecommerce/8.jpg"]}></CarrouselComponent>
+        <CarrouselComponent images={["./img/apps/mobilecommerce/1.jpg","./img/apps/mobilecommerce/2.jpg","./img/apps/mobilecommerce/3.jpg","./img/apps/mobilecommerce/4.jpg","./img/apps/mobilecommerce/5.jpg","./img/apps/mobilecommerce/6.jpg","./img/apps/mobilecommerce/7.jpg","./img/apps/mobilecommerce/8.jpg","./img/apps/mobilecommerce/9.jpg","./img/apps/mobilecommerce/10.jpg","./img/apps/mobilecommerce/11.jpg","./img/apps/mobilecommerce/12.jpg","./img/apps/mobilecommerce/13.jpg"]}></CarrouselComponent>
         <CardContent class=" d-grid mt-2">
           
           <Typography gutterBottom variant="h5" component="div">
